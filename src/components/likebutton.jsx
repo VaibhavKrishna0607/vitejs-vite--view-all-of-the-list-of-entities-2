@@ -1,4 +1,4 @@
-// LikeButton.jsx
+
 import React, { useState } from 'react';
 
 const LikeButton = () => {
