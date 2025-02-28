@@ -36,8 +36,9 @@ function App() {
        
       {initialPosts.map((post)=>(
         <PostCard
+        profileImage = {post.profileImage}
         key = {post.id}
-        username = {post.username}
+        name = {post.username}
         content = {post.content}
         isLiked = {post.isLiked}
       />))}

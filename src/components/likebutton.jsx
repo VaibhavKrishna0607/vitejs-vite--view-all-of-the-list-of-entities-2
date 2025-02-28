@@ -1,4 +1,4 @@
-// LikeButton.jsx
+
 import React, { useState } from 'react';
 
 const LikeButton = () => {
@@ -15,7 +15,7 @@ const LikeButton = () => {
         backgroundColor: liked ? 'red' : 'gray'
       }}
     >
-      {liked ? 'Liked' : 'Like'}
+      {liked ? 'Liked!' : 'Like Here'}
     </button>
   );
 };
